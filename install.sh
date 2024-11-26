@@ -458,9 +458,9 @@ function print_logo() {
                                                                    
        ██▒   █▓ ██▓ ███▄ ▄███▓ 
       ▓██░   █▒▓██▒▓██▒▀█▀ ██▒        A Java IDE based on Lunavim.
-       ▓██  █▒░▒██▒▓██    ▓██░        @ Powered by oTourette.
+       ▓██  █▒░▒██▒▓██    ▓██░        @ Powered by thePetrola.
         ▒██ █░░░██░▒██    ▒██ 
-         ▒▀█░  ░██░▒██▒   ░██▒        v: 0.1.0 (Beta).
+         ▒▀█░  ░██░▒██▒   ░██▒        
          ░ ▐░  ░▓  ░ ▒░   ░  ░ 
          ░ ░░   ▒ ░░  ░      ░ 
            ░░   ▒ ░░      ░         
