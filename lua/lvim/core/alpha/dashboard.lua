@@ -110,7 +110,7 @@ function M.get_sections()
     type = "text",
     val = text.align_center({ width = 0 }, {
       "",
-      "lunarvim.org",
+      "@thePetrola",
       lvim_version,
     }, 0.5),
     opts = {
