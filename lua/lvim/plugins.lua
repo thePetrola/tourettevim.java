@@ -357,6 +357,13 @@ local core_plugins = {
     dependencies = { "nvim-treesitter/nvim-treesitter" },
     event = { "FileReadPre", "BufReadPre", "User FileOpened" },
   },
+
+  -- TouretteVim
+  -- Java Plugins
+  {
+    "mfussenegger/nvim-jdtls",
+    tag = "0.2.0",
+  }
 }
 
 local default_snapshot_path = join_paths(get_lvim_base_dir(), "snapshots", "default.json")
