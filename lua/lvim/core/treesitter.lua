@@ -6,7 +6,7 @@ function M.config()
     on_config_done = nil,
 
     -- A list of parser names, or "all"
-    ensure_installed = { "comment", "markdown_inline", "regex" },
+    ensure_installed = { "comment", "markdown_inline", "regex", "java" },
 
     -- List of parsers to ignore installing (for "all")
     ignore_install = {},
@@ -17,7 +17,7 @@ function M.config()
     parser_install_dir = nil,
 
     -- Install parsers synchronously (only applied to `ensure_installed`)
-    sync_install = false,
+    sync_install = true,
 
     -- Automatically install missing parsers when entering buffer
     auto_install = true,
@@ -50,6 +50,8 @@ function M.config()
         svelte = "<!-- %s -->",
         vue = "<!-- %s -->",
         json = "",
+        java = "// %s",
+        xhtml = "<!-- %s -->"
       },
     },
     indent = { enable = true, disable = { "yaml", "python" } },
