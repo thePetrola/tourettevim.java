@@ -375,6 +375,12 @@ function verify_lvim_dirs() {
   mkdir -p "$LUNARVIM_CONFIG_DIR"
 }
 
+function __install_jdts() {
+  git clone https://github.com/eclipse-jdtls/eclipse.jdt.ls.git
+  cd eclipse.jdt.ls
+  JAVA_HOME=~/.sdkman/candidates/java/current ./mvnw clean verify -DskipTests=true
+}
+
 function clone_lvim() {
   msg "Cloning LunarVim configuration"
   if ! git clone --progress --depth 1 --branch "$LV_BRANCH" \
