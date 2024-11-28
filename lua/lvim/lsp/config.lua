@@ -32,6 +32,7 @@ local skipped_servers = {
   "hydra_lsp",
   "htmx",
   "java_language_server",
+  -- Added jdtls to TouretteVim Configuration.
   "jdtls",
   "jedi_language_server",
   "lexical",

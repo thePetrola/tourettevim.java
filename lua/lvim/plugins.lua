@@ -363,6 +363,28 @@ local core_plugins = {
   {
     "mfussenegger/nvim-jdtls",
     tag = "0.2.0",
+  },
+
+  -- Java Dap virtual Text
+  {
+    "theHamsta/nvim-dap-virtual-text",
+  },
+
+  -- Dap Buddy
+  {
+    "Pocco81/dap-buddy.nvim",
+  },
+
+  -- Java Debug
+  {
+    "microsoft/java-debug",
+    tag = "0.53.1",
+  },
+
+  -- Java Test
+  {
+    "microsoft/vscode-java-test",
+    tag = "0.43.0",
   }
 }
 
